@@ -91,4 +91,4 @@ def test_8_chars_password_tio_should_raise_excepiton():
     with pytest.raises(Exception):  # then
         # when
         validator.password_validate()
-        
+   
